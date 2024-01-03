@@ -1,0 +1,68 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+    font-family: figtree;
+    src: url('../assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+body,a{
+    font-family: figtree;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+.container{
+    background-color:#F4D04E;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #000;
+    max-width: 366px;
+    box-shadow: 8px 8px #000;
+}
+.card img{
+    border-radius: 10px;
+}
+
+.card .card_description{
+    color: hsl(0, 0%, 50%);
+}
+.card a.card_category{
+    padding: 10px;
+    background-color: #F4D04E;
+    margin-top: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+}
+ 
+.card h2{
+    margin: 0;
+}
+
+.card .card_title:hover{
+    color: #f4d04e    ;
+}
+
+.card .author_avatar{
+    max-width: 32px;
+}
+
+.author{
+    align-items: center;
+    display: flex;
+}
+
+.author .author_name{
+    font-weight: 800;
+    margin-left: 10px;
+}
